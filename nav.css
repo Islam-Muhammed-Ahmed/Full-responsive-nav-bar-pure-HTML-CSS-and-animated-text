@@ -229,6 +229,7 @@ header {
     position: relative;
     top: 0;
     animation: slides 20s steps(4) infinite;
+    -webkit-animation: slides 20s steps(4) infinite;
 }
 
 @keyframes slides {
@@ -252,6 +253,7 @@ header {
     background: black;
     border-left: 3px solid cyan;
     animation: typing 5s infinite;
+    -webkit-animation: typing 5s infinite;
 }
 
 @keyframes typing {
